@@ -13,6 +13,7 @@ h1 {
   font-family: var(--heading-font-family);
   font-size: 96px;
   font-weight: 700;
+  line-height: 1.5;
 }
 h2 {
   font-family: var(--content-font-family);
