@@ -7,7 +7,6 @@
 
 body {
   text-align: center;
-  background-color: #f9f7fe;
 }
 h1 {
   font-family: var(--heading-font-family);
@@ -28,7 +27,8 @@ h3 {
   color: var(--seconday-color);
 }
 .hero {
-  margin: 276px 375px 271px 372px;
+  padding: 160px 20px;
+  background-color: #f9f7fe;
 }
 .hero .btn {
   background-color: var(--button-color);
