@@ -30,11 +30,33 @@ h3 {
   padding: 160px 20px;
   background-color: #f9f7fe;
 }
-.hero .btn {
+.branded-btn {
   background-color: var(--button-color);
   border-radius: 4px;
   padding: 18px 30px;
   font-size: 18px;
   font-family: var(--content-font-family);
   border-color: var(--button-color);
+}
+.secondary-branded-btn {
+  border-color: var(--button-color);
+  background-color: white;
+  color: var(--button-color);
+  border-radius: 4px;
+  padding: 18px 30px;
+  font-size: 16px;
+  font-family: var(--content-font-family);
+}
+.container h2 {
+  font-family: var(--heading-font-family);
+  font-size: 64px;
+  font-weight: bold;
+}
+.text-between {
+  font-family: var(--content-font-family);
+  font-size: 18px;
+  margin-top: 127px;
+  margin-bottom: 82px;
+}
+.project-text {
 }
