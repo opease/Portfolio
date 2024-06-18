@@ -79,21 +79,23 @@ h2 {
 .about-pic {
   border-radius: 16px;
 }
-.about-hero {
+.content-container {
   padding: 160px 20px;
 }
-.about-hero h3 {
+.content-container h3 {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 24px;
 }
-.about-hero h1 {
+.content-container h1 {
   font-size: 64px;
 }
-.about-hero p {
+.content-container p {
   text-align: start;
   opacity: 70%;
+  font-family: var(--content-font-family);
+  font-size: 14px;
 }
-.about-hero .buttons {
+.content-container .buttons {
   text-align: start;
 }
 @media (max-width: 570px) {
@@ -131,16 +133,16 @@ h2 {
   .project-description {
     text-align: center;
   }
-  .about-hero h1 {
+  .content-container h1 {
     font-size: 48px;
   }
-  .about-hero {
+  .content-container {
     padding: 70px 20px;
   }
-  .about-hero p {
+  .content-container p {
     text-align: center;
   }
-  .about-hero .buttons {
+  .content-container .buttons {
     text-align: center;
   }
 }
