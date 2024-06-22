@@ -102,6 +102,31 @@ p {
 .content-container .buttons {
   text-align: start;
 }
+.logo {
+  max-height: 40px;
+}
+nav {
+  padding: 20px;
+}
+nav li {
+  display: inline;
+  list-style: none;
+  line-height: 42px;
+  font-family: var(--content-font-family);
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+nav a {
+  text-decoration: none;
+  margin-left: 10px;
+  color: #272142;
+}
+nav a:hover,
+nav .active a {
+  color: var(--button-color);
+}
 @media (max-width: 570px) {
   h1 {
     font-size: 48px;
@@ -148,5 +173,8 @@ p {
   }
   .content-container .buttons {
     text-align: center;
+  }
+  nav a {
+    font-size: 12px;
   }
 }
