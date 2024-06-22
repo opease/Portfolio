@@ -1,8 +1,8 @@
 :root {
+  --branding-color: #6c63ff;
+  --secondary-color: #f9f7fe;
   --heading-font-family: "Playfair Display", serif;
-  --content-font-family: "Poppins", sans-serif;
-  --seconday-color: #272142;
-  --button-color: #6c63ff;
+  --default-font-family: "Poppins", sans-serif;
 }
 
 h1 {
@@ -12,38 +12,44 @@ h1 {
   line-height: 1.5;
 }
 h2 {
-  font-family: var(--content-font-family);
+  font-family: var(--default-font-family);
   color: var(--seconday-color);
   font-weight: bold;
   text-align: left;
 }
 h3 {
-  font-family: var(--content-font-family);
+  font-family: var(--default-font-family);
   font-weight: 500;
   font-style: normal;
   font-size: 24px;
   color: var(--seconday-color);
+}
+h4 {
+  font-size: 48px;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
 }
 .hero {
   padding: 160px 20px;
   background-color: #f9f7fe;
 }
 .branded-btn {
-  background-color: var(--button-color);
+  background-color: var(--branding-color);
   border-radius: 4px;
   padding: 18px 30px;
   font-size: 18px;
-  font-family: var(--content-font-family);
-  border-color: var(--button-color);
+  font-family: var(--default-font-family);
+  border-color: var(--branding-color);
+  color: white;
 }
 .secondary-branded-btn {
-  border-color: var(--button-color);
+  border-color: var(--branding-color);
   background-color: white;
-  color: var(--button-color);
+  color: var(--branding-color);
   border-radius: 4px;
   padding: 18px 30px;
   font-size: 16px;
-  font-family: var(--content-font-family);
+  font-family: var(--default-font-family);
 }
 h2 {
   font-family: var(--heading-font-family);
@@ -51,7 +57,7 @@ h2 {
   font-weight: bold;
 }
 .text-between {
-  font-family: var(--content-font-family);
+  font-family: var(--default-font-family);
   font-size: 18px;
   margin-top: 127px;
   margin-bottom: 82px;
@@ -65,7 +71,7 @@ h2 {
 .hero p {
   font-size: 36px;
   font-weight: bold;
-  font-family: var(--content-font-family);
+  font-family: var(--default-font-family);
 }
 .buttons {
   text-align: start;
@@ -94,7 +100,7 @@ h2 {
 }
 p {
   text-align: start;
-  font-family: var(--content-font-family);
+  font-family: var(--default-font-family);
   font-size: 16px;
   color: rgb(33, 37, 41);
   line-height: 30px;
@@ -112,7 +118,7 @@ nav li {
   display: inline;
   list-style: none;
   line-height: 42px;
-  font-family: var(--content-font-family);
+  font-family: var(--default-font-family);
 }
 nav ul {
   margin: 0;
@@ -125,7 +131,34 @@ nav a {
 }
 nav a:hover,
 nav .active a {
-  color: var(--button-color);
+  color: var(--branding-color);
+}
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  font-family: var(--default-font-family);
+}
+footer .email-link:hover {
+  color: var(--branding-color);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: var(--branding-color);
+  background: #f9f7fe;
+  padding: 10px 14px;
+  border-radius: 50%;
+  font-size: 18px;
+  transition: all 100ms ease-in-out;
+}
+footer .social-links a:hover {
+  color: white;
+  background: var(--branding-color);
+}
+footer .contact-box {
+  background: var(--secondary-color);
+  padding: 30px 120px;
+  border-radius: 10px;
 }
 @media (max-width: 570px) {
   h1 {
@@ -144,7 +177,7 @@ nav .active a {
   .hero p {
     font-size: 26px;
     font-weight: bold;
-    font-family: var(--content-font-family);
+    font-family: var(--default-font-family);
     margin-bottom: 0;
   }
   .text-container {
@@ -173,6 +206,9 @@ nav .active a {
   }
   .content-container .buttons {
     text-align: center;
+  }
+  footer .email-link {
+    font-size: 16px;
   }
   nav a {
     font-size: 12px;
