@@ -30,7 +30,7 @@ h4 {
   font-weight: bold;
 }
 .hero {
-  padding: 160px 20px;
+  padding: 60px 20px;
   background-color: #f9f7fe;
 }
 .branded-btn {
@@ -83,7 +83,7 @@ h2 {
   border-radius: 16px;
 }
 .content-container {
-  padding: 160px 20px;
+  padding: 60px 20px 0 20px;
 }
 .content {
   margin: 30px;
@@ -132,6 +132,9 @@ nav a {
 nav a:hover,
 nav .active a {
   color: var(--branding-color);
+}
+footer {
+  margin: 60px;
 }
 footer .email-link {
   text-decoration: none;

@@ -4,7 +4,11 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <title>Work</title>
+    <title>My Work</title>
+    <meta
+      name="description"
+      content="Odille's work portfolio. Project's she has worked on."
+    />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -17,12 +21,36 @@
     />
     <link rel="stylesheet" href="/styles/portfolio.css" />
     <script
-      src="https://kit.fontawesome.com/ddc3ee268a.js"
+      src="https://kit.fontawesome.com/f699a8d452.js"
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="/images/logo.png"
+            class="logo d-none d-md-block"
+            alt="SheCodes logo"
+          />
+          <img
+            src="/images/logo-small.jpg"
+            class="logo d-block d-md-none"
+            alt="SheCodes logo small"
+          />
+        </a>
+        <ul>
+          <li><a href="/" title="Homepage">Home</a></li>
+          <li><a href="/about.html" title="About Odille">About</a></li>
+          <li class="active">
+            <a href="/work.html" title="Odille's Work Experience">Work</a>
+          </li>
+          <li><a href="/contact.html" title="Contact odille">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="content">
         <h1 class="mb-5">Take a look at what I've been working on!</h1>
@@ -30,7 +58,7 @@
           <div class="col-md-6 mb-4">
             <img
               src="/images/yogurt.png"
-              alt=""
+              alt="Yogurt Project"
               class="img-fluid mb-3 rounded"
             />
             <h3 class="text-center">Yogurt Project</h3>
@@ -39,7 +67,7 @@
           <div class="col-md-6 mb-4">
             <img
               src="/images/weather.png"
-              alt=""
+              alt="Weather project"
               class="img-fluid mb-3 rounded"
             />
             <h3 class="text-center">Weather Project</h3>
@@ -48,7 +76,7 @@
           <div class="col-md-6 mb-4">
             <img
               src="/images/dictionary.png"
-              alt=""
+              alt="Dictionary Project"
               class="img-fluid mb-3 rounded"
             />
             <h3 class="text-center">Dictionary App</h3>
@@ -57,7 +85,7 @@
           <div class="col-md-6 mb-4">
             <img
               src="/images/translation.png"
-              alt=""
+              alt="Translation Project"
               class="img-fluid mb-3 rounded"
             />
             <h3 class="text-center">Translation App</h3>
@@ -66,5 +94,53 @@
         </div>
       </div>
     </div>
+    <footer>
+      <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+        <div>
+          <h4>Work Inquiry</h4>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div>
+          <a
+            href="/contact.html"
+            class="btn branded-btn mt-3"
+            title="Contact Odille"
+            >Contact me</a
+          >
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-5">
+        <a
+          href="mailto:odillepease@outlook.com"
+          class="email-link"
+          title="Email Odille"
+          >odillepease@outlook.com</a
+        >
+      </div>
+      <div class="social-links d-flex justify-content-center mb-5">
+        <a
+          href="https://github.com/opease"
+          target="_blank"
+          title="Ooille's GitHub projects"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.instagram.com/peaseodille/"
+          target="_blank"
+          title="Odille's Instagram"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+        <a
+          href="https://www.facebook.com/odillepease"
+          target="_blank"
+          title="Odille's Facebook"
+          ><i class="fa-brands fa-facebook"></i
+        ></a>
+      </div>
+      <p class="text-center mt-4">
+        This project was coded by Odille Pease and it is
+        <a href="https://github.com/opease/Portfolio">open-sourced</a>
+      </p>
+    </footer>
   </body>
 </html>
